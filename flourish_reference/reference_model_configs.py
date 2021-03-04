@@ -3,7 +3,7 @@ from edc_reference import site_reference_configs
 site_reference_configs.register_from_visit_schedule(
     visit_models={
         'edc_appointment.appointment': ['flourish_caregiver.maternalvisit'],
-#         'edc_appointment.appointment': ['flourish_child.childvisit']
+        'edc_appointment.appointment': ['flourish_child.childvisit']
         })
 
 configs = {}
