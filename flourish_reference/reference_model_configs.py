@@ -11,7 +11,8 @@ configs = {
     'flourish_caregiver.caregiverphqdeprscreening': ['depression_score',
                                                      'self_harm'],
     'flourish_caregiver.caregiveredinburghdeprscreening': ['depression_score',
-                                                           'self_harm']
+                                                           'self_harm'],
+    'flourish_child.childsociodemographic': ['attend_school']
     }
 
 for reference_name, fields in configs.items():
