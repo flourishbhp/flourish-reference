@@ -12,7 +12,12 @@ configs = {
                                                      'self_harm'],
     'flourish_caregiver.caregiveredinburghdeprscreening': ['depression_score',
                                                            'self_harm'],
-    'flourish_child.childsociodemographic': ['attend_school']
+    'flourish_child.childsociodemographic': ['attend_school'],
+    'flourish_child.childphqdepressionscreening': ['depression_score',
+                                                   'self_harm',
+                                                   'self_harm_thoughts',
+                                                   'suidice_attempt'],
+    'flourish_child.childgadanxietyscreening': ['anxiety_score']
     }
 
 for reference_name, fields in configs.items():
