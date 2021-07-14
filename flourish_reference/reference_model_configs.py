@@ -17,7 +17,8 @@ configs = {
                                                    'self_harm',
                                                    'self_harm_thoughts',
                                                    'suidice_attempt'],
-    'flourish_child.childgadanxietyscreening': ['anxiety_score']
+    'flourish_child.childgadanxietyscreening': ['anxiety_score'],
+    'flourish_caregiver.hivrapidtestcounseling': ['result_date'],
     }
 
 for reference_name, fields in configs.items():
