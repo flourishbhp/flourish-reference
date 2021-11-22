@@ -15,7 +15,7 @@ configs = {
     'flourish_caregiver.hivdisclosurestatusa': ['disclosed_status'],
     'flourish_caregiver.hivdisclosurestatusb': ['disclosed_status'],
     'flourish_caregiver.hivdisclosurestatusc': ['disclosed_status'],
-    'flourish_child.childsociodemographic': ['attend_school'],
+    'flourish_child.childsociodemographic': ['attend_school', 'working'],
     'flourish_child.childphqdepressionscreening': ['depression_score',
                                                    'self_harm',
                                                    'self_harm_thoughts',
