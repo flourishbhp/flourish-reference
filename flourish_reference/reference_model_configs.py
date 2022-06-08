@@ -22,7 +22,8 @@ configs = {
                                                    'suidice_attempt'],
     'flourish_child.childgadanxietyscreening': ['anxiety_score'],
     'flourish_caregiver.hivrapidtestcounseling': ['result_date'],
-    'flourish_child.birthdata': ['congenital_anomalities']
+    'flourish_child.birthdata': ['congenital_anomalities'],
+    'flourish_caregiver.breastfeedingquestionnaire': ['feeding_hiv_status'],
     }
 
 for reference_name, fields in configs.items():
