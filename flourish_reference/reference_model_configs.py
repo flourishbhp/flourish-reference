@@ -24,7 +24,8 @@ configs = {
     'flourish_caregiver.hivrapidtestcounseling': ['result_date'],
     'flourish_child.birthdata': ['congenital_anomalities'],
     'flourish_caregiver.breastfeedingquestionnaire': ['feeding_hiv_status'],
-    }
+    'flourish_caregiver.tbstudyeligibility': ['tb_participation'],
+}
 
 for reference_name, fields in configs.items():
     site_reference_configs.add_fields_to_config(
