@@ -24,6 +24,7 @@ configs = {
     'flourish_caregiver.hivrapidtestcounseling': ['result_date'],
     'flourish_child.birthdata': ['congenital_anomalities'],
     'flourish_caregiver.tbstudyeligibility': ['tb_participation'],
+    'flourish_caregiver.relationshipfatherinvolvement': ['partner_present'],
 }
 
 for reference_name, fields in configs.items():
