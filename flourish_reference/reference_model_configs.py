@@ -25,7 +25,8 @@ configs = {
     'flourish_child.birthdata': ['congenital_anomalities'],
     'flourish_caregiver.tbstudyeligibility': ['tb_participation'],
     'flourish_caregiver.relationshipfatherinvolvement': ['partner_present'],
-    'flourish_caregiver.tbengagement': ['interview_consent']
+    'flourish_caregiver.tbengagement': ['interview_consent'],
+    'flourish_caregiver.tbinterview': ['interview_language']
 }
 
 for reference_name, fields in configs.items():
