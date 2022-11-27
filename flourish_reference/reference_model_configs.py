@@ -12,6 +12,9 @@ configs = {
                                                      'self_harm'],
     'flourish_caregiver.caregiveredinburghdeprscreening': ['depression_score',
                                                            'self_harm'],
+    'flourish_caregiver.caregiverphqreferral': ['referred_to'],
+    'flourish_caregiver.caregiveredinburghreferral': ['referred_to'],
+    'flourish_caregiver.caregivergadreferral': ['referred_to'],
     'flourish_caregiver.hivdisclosurestatusa': ['disclosed_status'],
     'flourish_caregiver.hivdisclosurestatusb': ['disclosed_status'],
     'flourish_caregiver.hivdisclosurestatusc': ['disclosed_status'],
@@ -26,7 +29,8 @@ configs = {
     'flourish_caregiver.tbstudyeligibility': ['tb_participation'],
     'flourish_caregiver.relationshipfatherinvolvement': ['partner_present'],
     'flourish_caregiver.tbengagement': ['interview_consent'],
-    'flourish_caregiver.tbinterview': ['interview_language']
+    'flourish_caregiver.tbinterview': ['interview_language'],
+
 }
 
 for reference_name, fields in configs.items():
