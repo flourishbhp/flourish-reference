@@ -15,6 +15,8 @@ configs = {
     'flourish_caregiver.caregiverphqreferral': ['referred_to'],
     'flourish_caregiver.caregiveredinburghreferral': ['referred_to'],
     'flourish_caregiver.caregivergadreferral': ['referred_to'],
+    'flourish_child.childphqreferral': ['referred_to'],
+    'flourish_child.childgadreferral': ['referred_to'],
     'flourish_caregiver.hivdisclosurestatusa': ['disclosed_status'],
     'flourish_caregiver.hivdisclosurestatusb': ['disclosed_status'],
     'flourish_caregiver.hivdisclosurestatusc': ['disclosed_status'],
