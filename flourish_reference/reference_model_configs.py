@@ -4,6 +4,7 @@ site_reference_configs.register_from_visit_schedule(
     visit_models={
         'edc_appointment.appointment': ['flourish_caregiver.maternalvisit'],
         'flourish_child.appointment': ['flourish_child.childvisit'],
+        'pre_flourish.caregiverappointment': ['pre_flourish.preflourishcaregivervisit'],
         })
 
 configs = {
