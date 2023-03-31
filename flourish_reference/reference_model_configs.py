@@ -4,7 +4,7 @@ site_reference_configs.register_from_visit_schedule(
     visit_models={
         'edc_appointment.appointment': ['flourish_caregiver.maternalvisit'],
         'flourish_child.appointment': ['flourish_child.childvisit'],
-        })
+    })
 
 configs = {
     'flourish_caregiver.caregivergadanxietyscreening': ['anxiety_score'],
@@ -32,6 +32,8 @@ configs = {
     'flourish_caregiver.relationshipfatherinvolvement': ['partner_present'],
     'flourish_caregiver.tbengagement': ['interview_consent'],
     'flourish_caregiver.tbinterview': ['interview_language'],
+    'flourish_child.tbadolengagement': ['interview_consent'],
+    'flourish_child.tbadolinterview': ['interview_language'],
 
 }
 
