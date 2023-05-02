@@ -36,9 +36,8 @@ configs = {
     'flourish_child.tbadolinterview': ['interview_language'],
     'flourish_child.tblabresultsadol': ['quantiferon_result'],
     'flourish_child.tbvisitscreeningadolescent': ['cough_duration', 'fever_duration', 'night_sweats', 'weight_loss'],
-    'flourish_child.tbpresencehouseholdmembersadol': ['tb_referral',],
+    'flourish_child.tbpresencehouseholdmembersadol': ['tb_referral', ],
     'flourish_child.hivtestingadol': ['seen_by_healthcare', 'referred_for_treatment'],
-
 
 }
 
