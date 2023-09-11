@@ -4,6 +4,7 @@ site_reference_configs.register_from_visit_schedule(
     visit_models={
         'edc_appointment.appointment': ['flourish_caregiver.maternalvisit'],
         'flourish_child.appointment': ['flourish_child.childvisit'],
+        'pre_flourish.appointment': ['pre_flourish.preflourishvisit'],
     })
 
 configs = {
@@ -38,7 +39,6 @@ configs = {
     'flourish_child.tbvisitscreeningadolescent': ['cough_duration', 'fever_duration', 'night_sweats', 'weight_loss'],
     'flourish_child.tbpresencehouseholdmembersadol': ['tb_referral', ],
     'flourish_child.hivtestingadol': ['seen_by_healthcare', 'referred_for_treatment'],
-
 }
 
 for reference_name, fields in configs.items():
