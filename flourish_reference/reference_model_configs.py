@@ -41,6 +41,9 @@ configs = {
     'flourish_child.tbpresencehouseholdmembersadol': ['tb_referral', ],
     'flourish_child.hivtestingadol': ['seen_by_healthcare', 'referred_for_treatment'],
 
+    # FACET
+    'flourish_facet.intimatepartnerviolence': ['referral'],
+
 }
 
 for reference_name, fields in configs.items():
