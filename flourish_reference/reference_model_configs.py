@@ -6,7 +6,7 @@ site_reference_configs.register_from_visit_schedule(
         'flourish_child.appointment': ['flourish_child.childvisit'],
         'pre_flourish.appointment': ['pre_flourish.preflourishvisit'],
         'flourish_facet.appointment': ['flourish_facet.facetvisit']
-        })
+    })
 
 configs = {
     'flourish_caregiver.caregivergadanxietyscreening': ['anxiety_score'],
@@ -40,6 +40,14 @@ configs = {
     'flourish_child.tbvisitscreeningadolescent': ['cough_duration', 'fever_duration', 'night_sweats', 'weight_loss'],
     'flourish_child.tbpresencehouseholdmembersadol': ['tb_referral', ],
     'flourish_child.hivtestingadol': ['seen_by_healthcare', 'referred_for_treatment'],
+
+    # FACET
+    'flourish_facet.anxietyscreeninggad7': ['anxiety_score'],
+    'flourish_facet.depressionscreeningphq9': ['depression_score', 'self_harm'],
+    'flourish_facet.depressionscreeningedinburgh': ['depression_score', 'self_harm'],
+    'flourish_facet.facetcaregiverphqreferral': ['referred_to'],
+    'flourish_facet.facetcaregiveredinburghreferral': ['referred_to'],
+    'flourish_facet.facetcaregivergadreferral': ['referred_to'],
 
 }
 
