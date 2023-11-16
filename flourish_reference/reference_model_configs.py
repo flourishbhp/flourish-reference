@@ -31,7 +31,7 @@ configs = {
     'flourish_caregiver.hivrapidtestcounseling': ['result_date'],
     'flourish_child.birthdata': ['congenital_anomalities'],
     'flourish_caregiver.tbstudyeligibility': ['tb_participation'],
-    'flourish_caregiver.relationshipfatherinvolvement': ['partner_present'],
+    'flourish_caregiver.relationshipfatherinvolvement': ['partner_present', 'conunselling_referral'],
     'flourish_caregiver.tbengagement': ['interview_consent'],
     'flourish_caregiver.tbinterview': ['interview_language'],
     'flourish_child.tbadolengagement': ['interview_consent'],
