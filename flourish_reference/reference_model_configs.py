@@ -17,6 +17,7 @@ configs = {
     'flourish_caregiver.caregiverphqreferral': ['referred_to'],
     'flourish_caregiver.caregiveredinburghreferral': ['referred_to'],
     'flourish_caregiver.caregivergadreferral': ['referred_to'],
+    'flourish_caregiver.tbreferralcaregiver': ['referred_for_screening'],
     'flourish_child.childphqreferral': ['referred_to'],
     'flourish_child.childgadreferral': ['referred_to'],
     'flourish_caregiver.hivdisclosurestatusa': ['disclosed_status'],
@@ -31,26 +32,28 @@ configs = {
     'flourish_caregiver.hivrapidtestcounseling': ['result_date'],
     'flourish_child.birthdata': ['congenital_anomalities'],
     'flourish_caregiver.tbstudyeligibility': ['tb_participation'],
-    'flourish_caregiver.relationshipfatherinvolvement': ['partner_present', 'conunselling_referral'],
+    'flourish_caregiver.relationshipfatherinvolvement': ['partner_present',
+                                                         'conunselling_referral'],
     'flourish_caregiver.tbengagement': ['interview_consent'],
     'flourish_caregiver.tbinterview': ['interview_language'],
     'flourish_child.tbadolengagement': ['interview_consent'],
     'flourish_child.tbadolinterview': ['interview_language'],
     'flourish_child.tblabresultsadol': ['quantiferon_result'],
-    'flourish_child.tbvisitscreeningadolescent': ['cough_duration', 'fever_duration', 'night_sweats', 'weight_loss'],
+    'flourish_child.tbvisitscreeningadolescent': ['cough_duration', 'fever_duration',
+                                                  'night_sweats', 'weight_loss'],
     'flourish_child.tbpresencehouseholdmembersadol': ['tb_referral', ],
     'flourish_child.hivtestingadol': ['seen_by_healthcare', 'referred_for_treatment'],
+    'flourish_child.childtbreferral': ['referred_for_screening'],
 
     # FACET
 
-    'flourish_facet.anxietyscreeninggad7': ['anxiety_score'],
-    'flourish_facet.depressionscreeningphq9': ['depression_score', 'self_harm'],
-    'flourish_facet.depressionscreeningedinburgh': ['depression_score', 'self_harm'],
-    'flourish_facet.facetcaregiverphqreferral': ['referred_to'],
-    'flourish_facet.facetcaregiveredinburghreferral': ['referred_to'],
-    'flourish_facet.facetcaregivergadreferral': ['referred_to'],
-    'flourish_facet.intimatepartnerviolence': ['referral'],
-
+    # 'flourish_facet.anxietyscreeninggad7': ['anxiety_score'],
+    # 'flourish_facet.depressionscreeningphq9': ['depression_score', 'self_harm'],
+    # 'flourish_facet.depressionscreeningedinburgh': ['depression_score', 'self_harm'],
+    # 'flourish_facet.facetcaregiverphqreferral': ['referred_to'],
+    # 'flourish_facet.facetcaregiveredinburghreferral': ['referred_to'],
+    # 'flourish_facet.facetcaregivergadreferral': ['referred_to'],
+    # 'flourish_facet.intimatepartnerviolence': ['referral'],
 
 }
 
