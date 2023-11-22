@@ -47,13 +47,13 @@ configs = {
 
     # FACET
 
-    # 'flourish_facet.anxietyscreeninggad7': ['anxiety_score'],
-    # 'flourish_facet.depressionscreeningphq9': ['depression_score', 'self_harm'],
-    # 'flourish_facet.depressionscreeningedinburgh': ['depression_score', 'self_harm'],
-    # 'flourish_facet.facetcaregiverphqreferral': ['referred_to'],
-    # 'flourish_facet.facetcaregiveredinburghreferral': ['referred_to'],
-    # 'flourish_facet.facetcaregivergadreferral': ['referred_to'],
-    # 'flourish_facet.intimatepartnerviolence': ['referral'],
+    'flourish_facet.anxietyscreeninggad7': ['anxiety_score'],
+    'flourish_facet.depressionscreeningphq9': ['depression_score', 'self_harm'],
+    'flourish_facet.depressionscreeningedinburgh': ['depression_score', 'self_harm'],
+    'flourish_facet.facetcaregiverphqreferral': ['referred_to'],
+    'flourish_facet.facetcaregiveredinburghreferral': ['referred_to'],
+    'flourish_facet.facetcaregivergadreferral': ['referred_to'],
+    'flourish_facet.intimatepartnerviolence': ['referral'],
 
 }
 
