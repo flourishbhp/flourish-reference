@@ -17,7 +17,6 @@ configs = {
     'flourish_caregiver.caregiverphqreferral': ['referred_to'],
     'flourish_caregiver.caregiveredinburghreferral': ['referred_to'],
     'flourish_caregiver.caregivergadreferral': ['referred_to'],
-    'flourish_caregiver.tbreferralcaregiver': ['referred_for_screening'],
     'flourish_child.childphqreferral': ['referred_to'],
     'flourish_child.childgadreferral': ['referred_to'],
     'flourish_caregiver.hivdisclosurestatusa': ['disclosed_status'],
@@ -43,7 +42,6 @@ configs = {
                                                   'night_sweats', 'weight_loss'],
     'flourish_child.tbpresencehouseholdmembersadol': ['tb_referral', ],
     'flourish_child.hivtestingadol': ['seen_by_healthcare', 'referred_for_treatment'],
-    'flourish_child.childtbreferral': ['referred_for_screening'],
 
     # FACET
 
