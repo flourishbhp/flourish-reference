@@ -39,6 +39,11 @@ configs = {
     'flourish_caregiver.tbengagement': ['interview_consent'],
     'flourish_caregiver.breastmilk6months': ['milk_collected'],
     'flourish_caregiver.tbinterview': ['interview_language'],
+    'flourish_caregiver.caregivercageaid': ['alcohol_drugs',
+                                            'cut_down',
+                                            'people_reaction',
+                                            'guilt',
+                                            'eye_opener',],
     'flourish_child.tbadolengagement': ['interview_consent'],
     'flourish_child.tbadolinterview': ['interview_language'],
     'flourish_child.tblabresultsadol': ['quantiferon_result'],
@@ -46,6 +51,11 @@ configs = {
                                                   'night_sweats', 'weight_loss'],
     'flourish_child.tbpresencehouseholdmembersadol': ['tb_referral', ],
     'flourish_child.hivtestingadol': ['seen_by_healthcare', 'referred_for_treatment'],
+    'flourish_child.childcageaid': ['alcohol_drugs',
+                                    'cut_down',
+                                    'people_reaction',
+                                    'guilt',
+                                    'eye_opener',],
 
     # FACET
 
