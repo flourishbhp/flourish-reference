@@ -37,6 +37,8 @@ configs = {
     'flourish_caregiver.relationshipfatherinvolvement': ['partner_present',
                                                          'conunselling_referral'],
     'flourish_caregiver.tbengagement': ['interview_consent'],
+    'flourish_caregiver.breastmilk6months': ['milk_collected'],
+    'flourish_caregiver.breastmilkbirth': ['milk_collected'],
     'flourish_caregiver.tbinterview': ['interview_language'],
     'flourish_child.tbadolengagement': ['interview_consent'],
     'flourish_child.tbadolinterview': ['interview_language'],
