@@ -57,6 +57,8 @@ configs = {
     'flourish_facet.facetcaregiveredinburghreferral': ['referred_to'],
     'flourish_facet.facetcaregivergadreferral': ['referred_to'],
     'flourish_facet.intimatepartnerviolence': ['referral'],
+    'flourish_facet.childhivtesting': ['preferred_test_venue'],
+
 
 }
 
